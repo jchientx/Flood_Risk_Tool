@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- saved from url=(0016)http://localhost -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<style type="text/css" id="internalStyle" xmlns="">
+		body {
+		  font-family: Verdana, Gill, Helvetica, Sans-serif ;
+		  font-size: 0.8em;
+		  font-weight: 500;
+		  color: #000020;
+		  background-color: #FFFFFF;
+		}
+		div.itemDescription {
+		  margin-right: 2em;
+		  margin-bottom: 2em;
+		}
+		h1 {
+		  font-size: 1.5em;
+		  margin-top: 0;
+		  margin-bottom: 5px;
+		}
+		h1.idHeading {
+		  color: #008FAF;
+		  text-align: center;
+		}
+		h1.gpHeading {
+		  color: black;
+		}
+		span.idHeading {
+		  color: #007799;
+		  font-weight: bold;
+		}
+		.center {
+		  text-align: center;
+		  margin-top: 5px;
+		  margin-bottom: 5px;
+		}
+		img {
+		  width: 210px;
+		  border-width: 1px;
+		  border-style: outset;
+		}
+		img.center {
+		  text-align: center;
+		  display: block;
+		  border-color: #666666;
+		}
+		img.enclosed {
+		  width: 60%;
+		}
+		img.gp {
+		  width: auto;
+		  border-style: none;
+		  margin-top: -1.2em;
+		}
+		.noThumbnail {
+		  color: #888888;
+		  font-size: 1.2em;
+		  border-width: 1px;
+		  border-style: solid;
+		  border-color: black;
+		  padding: 3em 3em;
+		  position: relative;
+		  text-align: center;
+		  width: 210px;
+		  height: 140px;
+		}
+		.noContent {
+		  color: #888888;
+		}
+		.itemInfo p {
+		  margin-top: -0.1em;
+		}
+		.itemInfo img {
+		  width: auto;
+		  border: none;
+		}
+		.gpItemInfo p {
+		  margin-top: -1.2em;
+		}
+		div.box {
+		  margin-left: 1em;
+		}
+		div.hide {
+		  display: none;
+		}
+		div.show {
+		  display: block;
+		}
+		span.hide {
+		  display: none;
+		}
+		span.show {
+		  display: inline-block;
+		}
+		.backToTop a {
+		  color: #DDDDDD;
+		  font-style: italic;
+		  font-size: 0.85em;
+		}
+		h2 {
+		  font-size: 1.2em;
+		}
+		h2.gp {
+		  color: #00709C;
+		}
+		.gpsubtitle {
+		  color: black;
+		  font-size: 1.2em;
+		  font-weight: normal;
+		}
+		.gptags {
+		  color: black;
+		  font-size: 0.8em;
+		  font-weight: normal;
+		}
+		.head {
+		  font-size: 1.3em;
+		}
+		a:link {
+		  color: #098EA6;
+		  font-weight: normal;
+		  text-decoration: none;
+		}
+		a:visited {
+		  color: #098EA6;
+		  text-decoration: none;
+		}
+		a:link:hover, a:visited:hover {
+		  color: #007799;
+		  background-color: #C6E6EF;
+		}
+		h2.iso a {
+		  color: #007799;
+		  font-weight: bold;
+		}
+		.iso a:link {
+		  color: #007799;
+		  text-decoration: none;
+		}
+		.iso a:visited {
+		  color: #007799;
+		  text-decoration: none;
+		}
+		.iso a:link:hover, .iso a:visited:hover {
+		  color: #006688;
+		  background-color: #C6E6EF;
+		}
+		h2.fgdc a {
+		  color: #888888;
+		  font-weight: bold;
+		}
+		.fgdc a:link {
+		  color: #888888;
+		  text-decoration: none;
+		}
+		.fgdc a:visited {
+		  color: #888888;
+		  text-decoration: none;
+		}
+		.fgdc a:link:hover, .fgdc a:visited:hover {
+		  color: #777777;
+		  background-color: #C6E6EF;
+		}
+		h3 {
+			font-size: 1em; 
+			color: #00709C;
+		}
+		.backToTop {
+		  color: #AAAAAA;
+		  margin-left: 1em;
+		}
+		p.gp {
+		  margin-top: .6em;
+		  margin-bottom: .6em;
+		}
+		ul ul {
+		  list-style-type: square;
+		}
+		ul li.iso19139heading {
+		  margin-left: -3em;
+		  list-style: none;
+		  font-weight: bold;
+		  color: #666666;
+		}
+		dl {
+		  margin: 0;
+		  padding: 0;
+		}
+		dl.iso {
+		  background-color: #F2F9FF;
+		}
+		dl.esri {
+		  background-color: #F2FFF9;
+		}
+		dl.subtype {
+		  width: 40em;
+		  margin-top: 0.5em;
+		  margin-bottom: 0.5em;
+		  padding: 0;
+		}
+		dt {
+		  margin-left: 0.6em;
+		  padding-left: 0.6em;
+		  clear: left;
+		}
+		.subtype dt {
+		  width: 60%;
+		  float: left;
+		  margin: 0;
+		  padding: 0.5em 0.5em 0 0.75em;
+		  border-top: 1px solid #006400;
+		  clear: none;
+		}
+		.subtype dt.header {
+		  padding: 0.5em 0.5em 0.5em 0;
+		  border-top: none;
+		}
+		dd {
+		  margin-left: 0.6em;
+		  padding-left: 0.6em;
+		  clear: left;
+		}
+		.subtype dd {
+		  float: left;
+		  width: 25%;
+		  margin: 0;
+		  padding: 0.5em 0.5em 0 0.75em;
+		  border-top: 1px solid #006400;
+		  clear: none;
+		}
+		.subtype dd.header {
+		  padding: 0.5em 0.5em 0.5em 0;
+		  border-top: none;
+		}
+		.isoElement {
+		  font-variant: small-caps;
+		  font-size: 0.9em;
+		  font-weight: normal;
+		  color: #006688;
+		}
+		.esriElement {
+		  font-variant: small-caps;
+		  font-size: 0.9em;
+		  font-weight: normal;
+		  color: #006688;
+		}
+		.element {
+		  font-variant: small-caps;
+		  font-size: 0.9em;
+		  font-weight: normal;
+		  color: #666666;
+		}
+		unknownElement {
+		  font-variant: small-caps;
+		  font-size: 0.9em;
+		  font-weight: normal;
+		  color: #333333;
+		}
+		.sync {
+		  color: #006400;
+		  font-weight: bold;
+		  font-size: 0.9em;
+		}
+		.syncOld {
+		  color: #888888;
+		  font-weight: bold;
+		  font-size: 0.9em;
+		}
+		.textOld {
+		  color: #999999;
+		}
+		.code {
+		  font-family: monospace;
+		}
+		pre.wrap {
+		  width: 96%;
+		  font-family: Verdana, Gill, Helvetica, Sans-serif ;
+		  font-size: 1em;
+		  margin: 0 0 1em 0.6em;
+		  white-space: pre-wrap;       /* css-3 */
+		  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		  white-space: -pre-wrap;      /* Opera 4-6 */
+		  white-space: -o-pre-wrap;    /* Opera 7 */
+		  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		}
+		pre.gp {
+		  font-family: Courier New, Courier, monospace;
+		  line-height: 1.2em;
+		}
+		.gpcode {
+		  margin-left:15px;
+		  border: 1px dashed #ACC6D8;
+		  padding: 10px;
+		  background-color:#EEEEEE;
+		  height: auto;
+		  overflow: scroll; 
+		  width: 96%;
+		}
+		tr {
+		  vertical-align: top;
+		}
+		th {
+		  text-align: left;
+		  background: #dddddd;
+		  vertical-align: bottom;
+		  font-size: 0.8em;
+		}
+		td {
+		  background: #EEEEEE;
+		  color: black;
+		  vertical-align: top;
+		  font-size: 0.8em;
+		}
+		td.description {
+		  background: white;
+		}
+	  </style>
+</head>
+<body oncontextmenu="return true">
+<h1 class="gpHeading" xmlns="">Flood Risk Identification Tool</h1>
+<h2 class="gp" xmlns="">Title 
+		<span class="gpsubtitle">Flood Risk Identification Tool</span>
+</h2>
+<h2 class="gp" xmlns="">Summary</h2>
+<div class="gpItemInfo" xmlns="">
+<p><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This tool generates a basic flood risk map using three parameters like distance to rivers, rainfall and elevation data. It requires inputs from the user to set the thresholds/ ranges to generate the risk level.</SPAN><SPAN>It will adds 5 new fields on the attribute table, and exports a new Map Document (FloodMap.mxd). In the end, </SPAN><SPAN>the </SPAN><SPAN>users will get an PNG image of the output and save it to the location they want.</SPAN></P></DIV></DIV></DIV></p><br />
+</div>
+<h2 class="gp" xmlns="">Illustration</h2>
+<div xmlns="">
+<img class="gp" name="thumbnail" id="thumbnail" alt="Thumbnail" title="Thumbnail" src="file:///C:\Users\tasnu\AppData\Local\Temp\arcD838\3.jpg" />
+</div>
+<h2 class="gp" xmlns="">Usage</h2>
+<div class="gpItemInfo" xmlns="">
+<p><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This tool can be used for identifying the risk zones for floods within a specific study area. It requires three inputs from the user, one for the rivers</SPAN><SPAN>to generate buffer zone shapefile</SPAN><SPAN>, and two others like rainfall and elevation data. These data can be collected at any spatial unit because they will be intersected with the study area boundary. One of the parameters requires buffering to measure the proximity to the risk zones and it should be in a linear format. The last part of the tool generates a map in a .mxd file and also generates a map in .PNG format.</SPAN></P></DIV></DIV></DIV></p><br />
+</div>
+<h2 class="gp" xmlns="">Syntax</h2>
+<div xmlns="">
+<p style="margin-top: -1.2em">risklevel2 (Input_Feature, Field_For_Elevation, Elevation_Threshold_1, Elevation_Threshold_2, Field_For_Buffered_Rivers, Rivers_Threshold, Field_For_Precipitation, Precipitation_Threshold_1, Precipitation_Threshold_2, Input_MXD, Symbology_layer, PNG_name, Export_to_PNG) <br /><br />
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tbody>
+<tr>
+<th width="30%">
+<b>Parameter</b>
+</th>
+<th width="50%">
+<b>Explanation</b>
+</th>
+<th width="20%">
+<b>Data Type</b>
+</th>
+</tr>
+<tr>
+<td class="info">Input_Feature</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This parameter requires an input that has data from three parameters; buffered rivers, precipitation and elevation. This is a feature class type.</SPAN></P></DIV></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>dbf = arcpy.GetParameterAsText(0)</SPAN></P><P><SPAN># </SPAN><SPAN>This code imports a feature class of the three parameters. It is an output feature type.</SPAN></P></DIV></DIV></DIV></td>
+<td class="info" align="left">Feature Class</td>
+</tr>
+<tr>
+<td class="info">Field_For_Elevation</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This parameter requires a specific field that stores the elevation of the study area. It is a field type.</SPAN></P></DIV></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>FN = arcpy.GetParameterAsText(1)</SPAN></P><P><SPAN># </SPAN><SPAN>This code imports the field for elevation values for the study area.</SPAN></P></DIV></DIV></DIV></td>
+<td class="info" align="left">Field</td>
+</tr>
+<tr>
+<td class="info">Elevation_Threshold_1</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This parameter sets the lower limit of the range for elevation data.</SPAN></P></DIV></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>FNthr1 = arcpy.GetParameterAsText(2)</SPAN></P><P><SPAN># </SPAN><SPAN>This code takes an integer value to be put by the user as the lower threshold from the field chosen for elevation data.</SPAN></P><P><SPAN /></P><P><SPAN>expression = """Reclassdem({}, {}, {}, 3, 2, 1)""".format(FN_new,FNthr1,FNthr2)</SPAN></P><P><SPAN>codeblock = """def Reclassdem(inField, threshold1, threshold2, x, y, z):</SPAN></P><P STYLE="text-indent:20;"><SPAN>expression1 = inField &lt; threshold1</SPAN></P><P STYLE="text-indent:20;"><SPAN>expression2 = threshold1 &lt; inField &lt; threshold2</SPAN></P><P STYLE="text-indent:20;"><SPAN>expression3 = inField &gt; threshold2</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>if expression1:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return x</SPAN></P><P STYLE="text-indent:20;"><SPAN>elif expression2:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return y</SPAN></P><P STYLE="text-indent:20;"><SPAN>else:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return z</SPAN></P><P><SPAN># </SPAN><SPAN>This code explains how the threshold calculates the risk in integer format for the field chosen from the elevation data.</SPAN></P><P><SPAN /></P></DIV></DIV></DIV></td>
+<td class="info" align="left">Long</td>
+</tr>
+<tr>
+<td class="info">Elevation_Threshold_2</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This parameter sets the upper limit of the range for elevation data.</SPAN></P></DIV></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>FNthr2 = arcpy.GetParameterAsText(3)</SPAN></P><P><SPAN># </SPAN><SPAN>This code takes an integer value to be put by the user as the upper threshold from the field chosen for elevation data.</SPAN></P><P><SPAN /></P><P><SPAN>expression = """Reclassdem({}, {}, {}, 3, 2, 1)""".format(FN_new,FNthr1,FNthr2)</SPAN></P><P><SPAN>codeblock = """def Reclassdem(inField, threshold1, threshold2, x, y, z):</SPAN></P><P STYLE="text-indent:20;"><SPAN>expression1 = inField &lt; threshold1</SPAN></P><P STYLE="text-indent:20;"><SPAN>expression2 = threshold1 &lt; inField &lt; threshold2</SPAN></P><P STYLE="text-indent:20;"><SPAN>expression3 = inField &gt; threshold2</SPAN></P><P STYLE="text-indent:20;"><SPAN>if expression1:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return x</SPAN></P><P STYLE="text-indent:20;"><SPAN>elif expression2:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return y</SPAN></P><P STYLE="text-indent:20;"><SPAN>else:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return z</SPAN></P><P><SPAN># </SPAN><SPAN>This code explains how the threshold calculates the risk in integer format for the field chosen from the elevation data.</SPAN></P></DIV></DIV></DIV></td>
+<td class="info" align="left">Long</td>
+</tr>
+<tr>
+<td class="info">Field_For_Buffered_Rivers</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This parameter requires a specific field that stores the buffered distance of the rivers within the study area. It is a field type.</SPAN></P></DIV></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>FN2 = arcpy.GetParameterAsText(4)</SPAN></P><P><SPAN># </SPAN><SPAN>This code imports the field for buffered distance of the rivers within the study area.</SPAN></P></DIV></DIV></DIV></td>
+<td class="info" align="left">Field</td>
+</tr>
+<tr>
+<td class="info">Rivers_Threshold</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This parameter sets the distance/ buffered distance for the rivers data.</SPAN></P></DIV></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>FN2thr1 = arcpy.GetParameterAsText(5)</SPAN></P><P><SPAN># </SPAN><SPAN>This code takes an integer value to be put by the user as the threshold from the field chosen for buffered river data.</SPAN></P><P><SPAN /></P><P><SPAN>expression = """Reclassbuffer({}, {}, 1, 5)""".format(FN2_new,FN2thr1)</SPAN></P><P><SPAN>codeblock = """def Reclassbuffer(inField, threshold1, x, y):</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>expression1 = inField &lt; threshold1</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>expression2 = inField &gt;= threshold1</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>if expression1:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return x</SPAN></P><P STYLE="text-indent:20;"><SPAN>elif expression2:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return y</SPAN></P><P><SPAN># </SPAN><SPAN>This code explains how the threshold calculates the risk in integer format for the field chosen from the buffered river data.</SPAN></P></DIV></DIV></DIV></td>
+<td class="info" align="left">Double</td>
+</tr>
+<tr>
+<td class="info">Field_For_Precipitation</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This parameter requires a specific field that stores the precipitation data of the study area. It is a field type.</SPAN></P></DIV></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>FN3 = arcpy.GetParameterAsText(6)</SPAN></P><P><SPAN># </SPAN><SPAN>This code imports the field for precipitation values for the study area.</SPAN></P></DIV></DIV></DIV></td>
+<td class="info" align="left">Field</td>
+</tr>
+<tr>
+<td class="info">Precipitation_Threshold_1</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This parameter sets the lower limit of the range for precipitation data.</SPAN></P></DIV></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>FN3thr1 = arcpy.GetParameterAsText(7)</SPAN></P><P><SPAN># </SPAN><SPAN>This code takes an integer value to be put by the user as the lower threshold from the field chosen for precipitation data.</SPAN></P><P><SPAN /></P><P><SPAN>expression = """Reclassrain({}, {}, {}, 3, 2, 1)""".format(FN3_new,FN3thr1,FN3thr2)</SPAN></P><P><SPAN>codeblock = """def Reclassrain(inField, threshold1, threshold2, x, y, z):</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>expression1 = inField &lt; threshold1</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>expression2 = threshold1 &lt; inField &lt; threshold2</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>expression3 = inField &gt; threshold2</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>if expression1:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return x</SPAN></P><P STYLE="text-indent:20;"><SPAN>elif expression2:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return y</SPAN></P><P STYLE="text-indent:20;"><SPAN>else:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return z</SPAN></P><P><SPAN># </SPAN><SPAN>This code explains how the threshold calculates the risk in integer format for the field chosen from the precipitation data.</SPAN></P></DIV></DIV></DIV></td>
+<td class="info" align="left">Long</td>
+</tr>
+<tr>
+<td class="info">Precipitation_Threshold_2</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>This parameter sets the upper limit of the range for precipitation data.</SPAN></P></DIV></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>FN3thr2 = arcpy.GetParameterAsText(8)</SPAN></P><P><SPAN># </SPAN><SPAN>This code takes an integer value to be put by the user as the upper threshold from the field chosen for precipitation data.</SPAN></P><P><SPAN /></P><P><SPAN>expression = """Reclassrain({}, {}, {}, 3, 2, 1)""".format(FN3_new,FN3thr1,FN3thr2)</SPAN></P><P><SPAN>codeblock = """def Reclassrain(inField, threshold1, threshold2, x, y, z):</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>expression1 = inField &lt; threshold1</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>expression2 = threshold1 &lt; inField &lt; threshold2</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>expression3 = inField &gt; threshold2</SPAN></P><P STYLE="margin:1 1 1 20;"><SPAN>if expression1:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return x</SPAN></P><P STYLE="text-indent:20;"><SPAN>elif expression2:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return y</SPAN></P><P STYLE="text-indent:20;"><SPAN>else:</SPAN></P><P STYLE="text-indent:20;margin:1 1 1 20;"><SPAN>return z</SPAN></P><P><SPAN># </SPAN><SPAN>This code explains how the threshold calculates the risk in integer format for the field chosen from the precipitation data.</SPAN></P></DIV></DIV></DIV></td>
+<td class="info" align="left">Long</td>
+</tr>
+<tr>
+<td class="info">Input_MXD</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>This parameter </SPAN><SPAN>requires the user to choose an existed MapDocument (.mxd) to save and will generate a new MapDocument (FloodMap.mxd). </SPAN></P><P><SPAN>It must be a exsisted MapDocument.</SPAN></P></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN># </SPAN><SPAN>This code </SPAN><SPAN>lets the user chooses an existed MapDocument (.mxd) to save the output. It will generate a new MapDocument (FloodMap.mxd) and save the output layer to the "TOP" location of the layers.</SPAN></P><P><SPAN>InputMapName = arcpy.GetParameterAsText(9)</SPAN></P><P><SPAN>MXD = arcpy.mapping.MapDocument(InputMapName)</SPAN></P><P><SPAN>DF = arcpy.mapping.ListDataFrames(MXD)[0]</SPAN></P><P><SPAN>layer = arcpy.mapping.Layer("Riskmap.shp")</SPAN></P><P><SPAN>arcpy.mapping.AddLayer(DF, layer, "TOP")</SPAN></P><P><SPAN># Save to a new map document and clear variable references</SPAN></P><P><SPAN>MXD.save()</SPAN></P><P><SPAN>del MXD</SPAN></P><P><SPAN>mxd.saveACopy("FloodMap.mxd")</SPAN></P></DIV></DIV></td>
+<td class="info" align="left">ArcMap Document</td>
+</tr>
+<tr>
+<td class="info">Symbology_layer (Optional) </td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>This parameter</SPAN><SPAN> lets the user inouts the symbology layer to apply on the PNG file. It is an optional one, if user doesn't input anything, the output will presented as the defult in the PNG image; else the symbology will apply on the output in the PNG image. </SPAN></P></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><P><SPAN># </SPAN><SPAN>This code</SPAN><SPAN> lets the user inouts the symbology layer. It is an optional one, if user doesn't input anything, the output will presented as the defult in the PNG image; else the symbology will apply on the output in the PNG image. </SPAN></P><P><SPAN>symbology = arcpy.GetParameterAsText(10)</SPAN></P><P><SPAN>if symbology == "":</SPAN></P><P><SPAN>    pass</SPAN></P><P><SPAN>else:</SPAN></P><P><SPAN>    # Set layer that output symbology will be based on</SPAN></P><P><SPAN>    symbologyLayer = "RisklevelSymbology.lyr"</SPAN></P><P><SPAN /></P><P><SPAN>    # Apply the symbology from the sourcelayer to the updatelayer</SPAN></P><P><SPAN>    df = arcpy.mapping.ListDataFrames(mxd)[0]</SPAN></P><P><SPAN>    updateLayer = arcpy.mapping.ListLayers(mxd, "Riskmap", df)[0]</SPAN></P><P><SPAN>    sourceLayer = arcpy.mapping.Layer(symbologyLayer)</SPAN></P><P><SPAN>    arcpy.mapping.UpdateLayer(df,updateLayer,sourceLayer)</SPAN></P><DIV><P><SPAN /></P></DIV></DIV></td>
+<td class="info" align="left">Layer File</td>
+</tr>
+<tr>
+<td class="info">PNG_name</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>This </SPAN><SPAN>parameter</SPAN><SPAN> requires the user inputs the PNG name. It shuld be the string type.</SPAN></P></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN># </SPAN><SPAN>This code</SPAN><SPAN> lets the user inouts the PNG name and the save location path.</SPAN></P><P><SPAN>PNGpath = arcpy.GetParameterAsText(12) + "\\" + arcpy.GetParameterAsText(11) +'.png'</SPAN></P><P><SPAN>arcpy.mapping.ExportToPNG (mxd, PNGpath)</SPAN></P><P><SPAN>del mxd</SPAN></P></DIV></DIV></td>
+<td class="info" align="left">String</td>
+</tr>
+<tr>
+<td class="info">Export_to_PNG</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>This </SPAN><SPAN>parameter</SPAN><SPAN> requires the user inputs the location folder to save the PNG file. It shuld be the folder type.</SPAN></P></DIV></DIV><div class="noContent" style="text-align:center; margin-top: -1em">___________________</div><br />
+<span style="font-weight: bold">Python Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN># </SPAN><SPAN>This code</SPAN><SPAN> lets the user inouts the PNG name and the save location path.</SPAN></P><P><SPAN>PNGpath = arcpy.GetParameterAsText(12) + "\\" + arcpy.GetParameterAsText(11) +'.png'</SPAN></P><P><SPAN>arcpy.mapping.ExportToPNG (mxd, PNGpath)</SPAN></P><P><SPAN>del mxd</SPAN></P></DIV></DIV></td>
+<td class="info" align="left">Folder</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="gp" xmlns="">Code Samples</h2>
+<div class="gpItemInfo" xmlns="">
+<p><span class="noContent">There are no code samples for this tool.</span></p>
+</div>
+<h2 class="gp" xmlns="">Tags</h2>
+<div class="gpItemInfo" xmlns="">
+<p>flood, risk</p>
+</div>
+<h2 class="gp" xmlns="">Credits</h2>
+<div class="gpItemInfo" xmlns="">
+<p><span class="noContent">There are no credits for this item.</span></p>
+</div>
+<h2 class="gp" xmlns="">Use limitations</h2>
+<div class="gpItemInfo" xmlns="">
+<p><DIV STYLE="text-align:Left;"><DIV><P><SPAN>The tool can take only three parameters as inputs from the users and they are defined. More than three are not allowed.</SPAN></P><P><SPAN /></P></DIV></DIV></p><br />
+</div>
+</body>
+</html>
